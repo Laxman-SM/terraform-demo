@@ -5,7 +5,6 @@ variable vpc_cidr_block {
 
 variable infra_name {
   type = "string"
-  default = "tfdemo"
 }
 
 variable public_subnet_cidr {
